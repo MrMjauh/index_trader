@@ -52,6 +52,7 @@ def main():
     
     # The best one
     buy_ix, sell_ix, profit = possible_profits[-1];
+    print("buy = %f sell = %f" % (points[buy_ix][0], points[sell_ix][0]))
     print("buy_ix = %d sell_ix = %d" % (buy_ix, sell_ix))
     print("buy_date = %s sell_date = %s" % (points[buy_ix][1], points[sell_ix][1]))
     print("profit = %f" % (profit))

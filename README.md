@@ -40,6 +40,7 @@ Where the red bar, shows low and high. The lines show potential profit with buyi
 Basically go through the graph from left to right and move forward while keeping track of the best score. Done once => O(n)
 
 ## Result
+buy = 1240.680000 sell = 1468.160000
 buy_date = 20160627 sell_date = 20161011
 profit = 227.480000
 
