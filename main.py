@@ -29,8 +29,8 @@ def main():
             # that the high value next to this low value
             # is not greater before replacing our min value
             # Basically a one step lookahead
-            if not same_day_casual_ordered and len(points) > (i + 1):
-                lookahead_ix = i + 1
+            lookahead_ix = i + 1
+            if not same_day_casual_ordered and len(points) > lookahead_ix:
                 profit = points[lookahead_ix][0] - min_val
                 if profit > max_profit:
                     max_profit = profit
